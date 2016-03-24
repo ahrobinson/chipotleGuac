@@ -21,7 +21,8 @@ angular.module('guacApp')
     $scope.submit = function () {
       $scope.info.m = $scope.phone;
       $scope.info.z = $scope.zip;
-      console.log($scope.info)
+      $scope.phone = '';
+      $scope.zip = '';
       return $http({
                method: 'POST',
                url: 'http://api.guachunter.com/guac-it-out/reg',
