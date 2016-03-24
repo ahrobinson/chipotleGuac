@@ -25,7 +25,7 @@ angular.module('guacApp')
       $scope.zip = '';
       return $http({
                method: 'POST',
-               url: 'http://api.guachunter.com/guac-it-out/reg',
+               url: 'https://api.guachunter.com/guac-it-out/reg',
                data: $scope.info,
                headers: {'Content-Type': 'application/x-www-form-urlencoded'}
              })
