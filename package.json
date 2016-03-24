@@ -34,7 +34,6 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "postinstall": "grunt uglify",
     "start": "nodemon server.js"
   },
   "dependencies": {
